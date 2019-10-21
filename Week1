@@ -1,0 +1,49 @@
+#Chapter Six : Strings
+
+str1 = "Hello"
+str2 = 'Bob'
+bob = str1 + str2
+print(bob)
+>>> HelloBob
+
+str3 = '123'
+sum = int(str3) + 1
+print(sum)
+>>> 124
+
+#Looking inside String - specified by square brackets [], index started at 0
+
+fruit = 'banana'
+letter = fruit[1]
+print(letter)
+>>> a
+
+x = 3
+w = fruit[x-1]
+print(w)
+
+#Len() Function
+
+fruit = 'banana'
+print(len(fruit))
+
+#Looping Through Strings
+
+fruit = 'banana'
+index = 0
+while index < len(fruit)
+			letter = fruit[index]
+      print(index,letter)
+      index = index+1
+
+#ForLoop
+
+fruit = 'banana'
+for letter in fruit
+      print(letter)
+      
+#Slicing Strings
+
+s = 'Monty Python'
+print(s[0:4])
+print(s[6:7])
